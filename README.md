@@ -5,7 +5,7 @@ Welcome to the official portfolio repository for **Mandeep Singh**, a detail-ori
 ---
 
 ## 🚀 Live Demo
-🌐 **Live Website:** [https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPO_NAME/](https://github.com)
+🌐 **Live Website:** [https://ms3593589-beep.github.io/mandeep-portfolio/](https://ms3593589-beep.github.io/mandeep-portfolio/)
 
 ---
 
@@ -36,7 +36,7 @@ porfilo/
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/YOUR_GITHUB_USERNAME/mandeep-portfolio.git
+   git clone https://github.com/ms3593589-beep/mandeep-portfolio.git
    cd mandeep-portfolio
    ```
 2. Open with any local web server or simply double-click `index.html`:
