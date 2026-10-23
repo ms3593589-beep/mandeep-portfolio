@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mandeep Singh | Software QA & Automation Test Engineer</title>
+  <meta name="description" content="Portfolio of Mandeep Singh - Software QA & Automation Test Engineer with hands-on experience in Playwright (Python), Appium, Manual Testing, API, and Mobile App Testing.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==========================================================
+       HEADER & NAVIGATION (EXACT SCREENSHOT STYLE)
+       ========================================================== -->
+  <header class="header" id="header">
+    <div class="nav-container">
+      <a href="#home" class="logo-wrap" id="logoLink">
+        <div class="logo-circle">
+          <span class="logo-inner">MS</span>
+        </div>
+      </a>
+
+      <nav class="nav-menu" id="navMenu">
+        <a href="#home" class="nav-item active" id="navHome">Home</a>
+        <a href="#skills" class="nav-item" id="navSkills">Skills</a>
+        <a href="#experience" class="nav-item" id="navExp">Experience</a>
+        <a href="#projects" class="nav-item" id="navProjects">My Projects</a>
+        <a href="#education" class="nav-item" id="navEdu">Education</a>
+        <a href="#hire-me" class="nav-item nav-item-hire" id="navHire">Hire Me</a>
+      </nav>
+
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ==========================================================
+       HERO SECTION (MATCHING YOUR EXACT REFERENCE)
+       ========================================================== -->
+  <section class="hero-section" id="home">
+    <div class="hero-container">
+      <!-- Left Hero Column: Typography & Action Buttons -->
+      <div class="hero-text-col">
+        <h1 class="hero-greeting">
+          Hi, I’m <span class="orange-text">Mandeep Singh...</span>
+        </h1>
+        <h2 class="hero-role">
+          I’m <span class="orange-text" id="typewriterText">Software QA &amp; Automation Test Engineer...</span>
+        </h2>
+        <p class="hero-description">
+          Detail-oriented Software QA &amp; Automation Test Engineer with hands-on experience in 
+          <strong class="text-white">Web &amp; Mobile App Testing Both</strong> (Manual &amp; Automation). 
+          Skilled in Web UI Automation (Playwright Python), Mobile Automation (Appium for Android &amp; iOS), 
+          API Testing (Postman), and Performance Testing (JMeter). 
+          Experienced across the entire SDLC and STLC...
+        </p>
+
+        <div class="hero-buttons-row">
+          <a href="#skills" class="orange-pill-btn btn-more" id="moreBtn">
+            <span>More...</span>
+            <span class="btn-arrow">⇨</span>
+          </a>
+          <button class="orange-pill-btn btn-resume" onclick="handleResumeDownload()" id="resumeBtn">
+            <span>Resume</span>
+            <span class="btn-icon">👤</span>
+          </button>
+        </div>
+
+        <div class="hero-quick-stats">
+          <div class="stat-badge">
+            <span class="stat-dot"></span>
+            <span>📍 Chandigarh, India • Open for QA Roles</span>
+          </div>
+          <div class="stat-badge highlight-stat">
+            <span class="stat-check">✔</span>
+            <span>Web &amp; Mobile App Both (Manual + Automation QA)</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Hero Column: Large Circular Profile Photo -->
+      <div class="hero-image-col">
+        <div class="profile-circle-wrapper">
+          <div class="profile-glow-ring"></div>
+          <img src="profile.jpg" alt="Mandeep Singh - Software QA Engineer" class="profile-img" id="profileImage">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================
+       SKILLS SECTION (100% MATCHING YOUR RESUME)
+       ========================================================== -->
+  <section class="content-section" id="skills">
+    <div class="section-wrapper">
+      <div class="section-title-wrap">
+        <span class="section-subtitle">Core Competencies</span>
+        <h2 class="section-heading">My Technical Skills</h2>
+        <div class="orange-divider"></div>
+      </div>
+
+      <div class="skills-grid">
+        <!-- 1. QA Testing Methodologies -->
+        <div class="skill-card">
+          <div class="skill-card-top">
+            <div class="skill-icon">📋</div>
+            <h3>Manual &amp; Functional QA</h3>
+          </div>
+          <p class="skill-card-desc">Thorough test design, requirement validation, and defect tracking across SDLC &amp; STLC.</p>
+          <div class="skill-tags">
+            <span>Manual Testing</span>
+            <span>Functional Testing</span>
+            <span>Regression Testing</span>
+            <span>Smoke &amp; Sanity</span>
+            <span>Exploratory Testing</span>
+            <span>End-to-End (E2E)</span>
+            <span>Cross-Browser Testing</span>
+            <span>Test Case Design &amp; Execution</span>
+            <span>Bug Reporting &amp; Defect Tracking</span>
+          </div>
+        </div>
+
+        <!-- 2. Automation & API Testing -->
+        <div class="skill-card">
+          <div class="skill-card-top">
+            <div class="skill-icon">🤖</div>
+            <h3>Automation &amp; API Testing</h3>
+          </div>
+          <p class="skill-card-desc">Modern programmatic test suites, contract validations, and performance loads.</p>
+          <div class="skill-tags">
+            <span>Playwright (Python)</span>
+            <span>Appium (Mobile Automation)</span>
+            <span>Postman</span>
+            <span>REST API Testing</span>
+            <span>Apache JMeter (Performance)</span>
+            <span>Python</span>
+            <span>JavaScript</span>
+            <span>Page Object Model (POM)</span>
+          </div>
+        </div>
+
+        <!-- 3. Mobile App Testing -->
+        <div class="skill-card">
+          <div class="skill-card-top">
+            <div class="skill-icon">📱</div>
+            <h3>Mobile App Testing</h3>
+          </div>
+          <p class="skill-card-desc">In-depth mobile app verification on real Android and iOS devices.</p>
+          <div class="skill-tags">
+            <span>Android App Testing</span>
+            <span>iOS App Testing</span>
+            <span>Device/OS Compatibility</span>
+            <span>Interruption Testing (Calls, Battery)</span>
+            <span>Network Throttling (Slow 3G/Offline)</span>
+            <span>Screen Size &amp; Resolution Checks</span>
+          </div>
+        </div>
+
+        <!-- 4. Tools, AI & Methodologies -->
+        <div class="skill-card">
+          <div class="skill-card-top">
+            <div class="skill-icon">⚙️</div>
+            <h3>Tools &amp; Methodologies</h3>
+          </div>
+          <p class="skill-card-desc">Agile team collaboration, version control, CI/CD, and AI-accelerated QA tools.</p>
+          <div class="skill-tags">
+            <span>Jira</span>
+            <span>Google Antigravity (AI)</span>
+            <span>GitHub</span>
+            <span>GitHub Actions CI/CD</span>
+            <span>VS Code</span>
+            <span>SDLC &amp; STLC</span>
+            <span>Agile &amp; Scrum</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Key Strengths Strip -->
+      <div class="strengths-banner">
+        <h4 class="strengths-title">⭐ Key Professional Strengths:</h4>
+        <div class="strengths-chips">
+          <span>Attention to Detail</span>
+          <span>Analytical Thinking</span>
+          <span>Problem Solving</span>
+          <span>Clear Communication</span>
+          <span>Quick Learner</span>
+          <span>Adaptability</span>
+          <span>Time Management</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================
+       EXPERIENCE SECTION (100% MATCHING YOUR RESUME)
+       ========================================================== -->
+  <section class="content-section bg-darker" id="experience">
+    <div class="section-wrapper">
+      <div class="section-title-wrap">
+        <span class="section-subtitle">Work History</span>
+        <h2 class="section-heading">Professional Experience</h2>
+        <div class="orange-divider"></div>
+      </div>
+
+      <div class="timeline-container">
+        <!-- Experience 1: Certiwise, Mohali -->
+        <div class="timeline-box">
+          <div class="timeline-meta">
+            <span class="timeline-date">May 2026 — Present</span>
+            <span class="timeline-badge">Industrial Training Intern</span>
+          </div>
+          <div class="timeline-content">
+            <h3 class="timeline-role">Manual Testing &amp; AI-Powered Automation Tester</h3>
+            <span class="timeline-org">Certiwise • Mohali, India</span>
+            <ul class="timeline-bullets">
+              <li>Performed manual testing of web and mobile applications, including functional, UI, and regression checks.</li>
+              <li>Documented defects with clear reproduction steps, expected vs. actual results, and screenshots.</li>
+              <li>Automated web UI test cases using <strong>Playwright (Python)</strong>, covering registration, login, and other key user flows.</li>
+              <li>Utilized AI-powered tools such as <strong>Google Antigravity in VS Code</strong> to generate, refine, and maintain automation test scripts efficiently.</li>
+            </ul>
+            <div class="exp-tags-row">
+              <span>Playwright (Python)</span>
+              <span>Manual Testing</span>
+              <span>Google Antigravity</span>
+              <span>VS Code</span>
+              <span>Regression</span>
+              <span>Bug Reporting</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================
+       MY PROJECTS SECTION (100% MATCHING YOUR RESUME)
+       ========================================================== -->
+  <section class="content-section" id="projects">
+    <div class="section-wrapper">
+      <div class="section-title-wrap">
+        <span class="section-subtitle">Real-World Projects</span>
+        <h2 class="section-heading">Featured Testing Projects</h2>
+        <div class="orange-divider"></div>
+      </div>
+
+      <div class="projects-grid">
+        <!-- Project 1: Glam & Go Beauty Booking -->
+        <div class="project-card">
+          <div class="project-tag">Mobile App QA • Android / iOS</div>
+          <h3 class="project-title">Glam &amp; Go Beauty Booking</h3>
+          <span class="project-category">Beauty &amp; Wellness Mobile App</span>
+          <p class="project-desc">
+            A comprehensive beauty booking mobile application where users find salons and services, book appointments, make payments, and track bookings.
+          </p>
+          <div class="project-modules">
+            <strong>Modules Covered:</strong> Sign Up, Login &amp; OTP; Service Search (filters, sorting); Booking &amp; Rescheduling; Payments (UPI / Card / Wallet); History &amp; Cancellations; Notifications &amp; Reminders; User Profile.
+          </div>
+          <ul class="project-bullets">
+            <li>Manual and functional testing on mobile devices; wrote and executed test cases for the entire booking flow.</li>
+            <li>Built <strong>Appium scripts</strong> for mobile test automation; performed regression testing after each new build.</li>
+            <li>Evaluated negative &amp; boundary cases (invalid OTP, past dates, double booking); verified UI across different screen sizes, Android/iOS versions, slow networks, and interruptions (incoming calls, low battery).</li>
+            <li>Logged and tracked bugs in <strong>Jira</strong>; validated backend endpoints using <strong>Postman</strong>.</li>
+          </ul>
+          <div class="project-actions">
+            <button class="project-btn-primary" onclick="openArtifactModal('glamgo')">View Test Details</button>
+            <button class="project-btn-secondary" onclick="openArtifactModal('bugreport')">Sample Bug Report</button>
+          </div>
+        </div>
+
+        <!-- Project 2: Imghippo -->
+        <div class="project-card">
+          <div class="project-tag">Web Automation • Playwright</div>
+          <h3 class="project-title">Imghippo (Free Image Hosting)</h3>
+          <span class="project-category">Website UI &amp; REST API Automation</span>
+          <p class="project-desc">
+            A free cloud image hosting platform where users upload, compress, convert, and edit images, with developer connectivity via REST API and SDKs.
+          </p>
+          <div class="project-modules">
+            <strong>Modules Examined:</strong> Image upload and direct link generation; Compress, Convert &amp; Edit; invalid inputs and error messages; navigation menu, buttons, and links across all pages; page loading and layout responsiveness.
+          </div>
+          <ul class="project-bullets">
+            <li>Wrote and executed <strong>Playwright (Python)</strong> automated test scripts covering the core pages and image processing features.</li>
+            <li>Monitored automated test execution results, pinpointed failed assertions, and isolated root causes.</li>
+            <li>Communicated defects to developers with unambiguous reproduction steps, expected vs. actual outcomes, and screenshots.</li>
+          </ul>
+          <div class="project-actions">
+            <button class="project-btn-primary" onclick="openArtifactModal('imghippo')">View Playwright Script</button>
+            <button class="project-btn-secondary" onclick="openArtifactModal('allure')">Execution Summary</button>
+          </div>
+        </div>
+
+        <!-- Project 3: API & Performance Testing Suite -->
+        <div class="project-card">
+          <div class="project-tag">API &amp; Performance</div>
+          <h3 class="project-title">REST API &amp; JMeter Performance Suite</h3>
+          <span class="project-category">Postman &amp; Apache JMeter</span>
+          <p class="project-desc">
+            End-to-end API verification and performance stress testing suite validating microservice payloads, response times, and status code assertions.
+          </p>
+          <div class="project-modules">
+            <strong>Coverage:</strong> Authentication tokens, CRUD endpoints, query filtering, JSON schema compliance, and concurrency load tests.
+          </div>
+          <ul class="project-bullets">
+            <li>Created organized Postman collections testing status codes (200 OK, 400 Bad Request, 401 Unauthorized, 404).</li>
+            <li>Conducted load and stress tests using <strong>Apache JMeter</strong> to evaluate endpoint latency and response stability.</li>
+            <li>Automated test assertions verifying JSON response payloads, schema types, and headers.</li>
+          </ul>
+          <div class="project-actions">
+            <button class="project-btn-primary" onclick="openArtifactModal('api')">View Postman Script</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================
+       EDUCATION SECTION (100% MATCHING YOUR RESUME)
+       ========================================================== -->
+  <section class="content-section bg-darker" id="education">
+    <div class="section-wrapper">
+      <div class="section-title-wrap">
+        <span class="section-subtitle">Academic Background</span>
+        <h2 class="section-heading">Education &amp; Qualifications</h2>
+        <div class="orange-divider"></div>
+      </div>
+
+      <div class="education-grid">
+        <!-- Degree 1 -->
+        <div class="edu-card">
+          <div class="edu-icon-badge">🎓</div>
+          <div class="edu-details">
+            <span class="edu-timeline">August 2026 — Present</span>
+            <h3 class="edu-degree">M.Sc. in Information Technology</h3>
+            <span class="edu-school">Lovely Professional University (LPU)</span>
+            <p class="edu-desc">Advanced studies in modern information technology, software engineering paradigms, and computing architectures.</p>
+          </div>
+        </div>
+
+        <!-- Degree 2 -->
+        <div class="edu-card">
+          <div class="edu-icon-badge">🏛️</div>
+          <div class="edu-details">
+            <span class="edu-timeline">April 2023 — June 2026</span>
+            <h3 class="edu-degree">Bachelor of Arts (B.A.)</h3>
+            <span class="edu-school">Lovely Professional University (LPU)</span>
+            <p class="edu-desc">Undergraduate degree fostering strong analytical thinking, communication, problem-solving, and adaptability.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================
+       HIRE ME / CONTACT SECTION (WITH YOUR EXACT DETAILS)
+       ========================================================== -->
+  <section class="content-section" id="hire-me">
+    <div class="section-wrapper">
+      <div class="hire-card">
+        <div class="hire-header">
+          <span class="section-subtitle">Let's Connect</span>
+          <h2 class="section-heading">Hire Mandeep Singh</h2>
+          <div class="orange-divider"></div>
+          <p class="hire-subtext">
+            I am actively interviewing and open for full-time or contract Software QA &amp; Automation Test Engineer positions. Let's discuss how I can bring quality to your team!
+          </p>
+        </div>
+
+        <div class="hire-contact-grid">
+          <!-- Email -->
+          <div class="contact-tile">
+            <div class="tile-icon">✉️</div>
+            <div>
+              <span class="tile-label">Email Me</span>
+              <a href="mailto:ms3593589@gmail.com" class="tile-link">ms3593589@gmail.com</a>
+            </div>
+          </div>
+
+          <!-- Phone -->
+          <div class="contact-tile">
+            <div class="tile-icon">📞</div>
+            <div>
+              <span class="tile-label">Call / WhatsApp</span>
+              <a href="tel:+916239465559" class="tile-val">+91-6239465559</a>
+            </div>
+          </div>
+
+          <!-- LinkedIn -->
+          <div class="contact-tile">
+            <div class="tile-icon">💼</div>
+            <div>
+              <span class="tile-label">LinkedIn Profile</span>
+              <a href="https://linkedin.com/in/mandeep-singh-4304b9266" target="_blank" class="tile-link">linkedin.com/in/mandeep-singh-4304b9266</a>
+            </div>
+          </div>
+
+          <!-- Location -->
+          <div class="contact-tile">
+            <div class="tile-icon">📍</div>
+            <div>
+              <span class="tile-label">Location</span>
+              <span class="tile-val">Chandigarh, India</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hire-actions-row">
+          <a href="mailto:ms3593589@gmail.com?subject=Job%20Opportunity%20-%20Software%20QA%20Engineer" class="orange-pill-btn">
+            <span>Send Direct Email</span>
+            <span class="btn-arrow">⇨</span>
+          </a>
+          <button class="orange-pill-btn btn-resume" onclick="handleResumeDownload()">
+            <span>Download Mandeep's Resume (PDF)</span>
+            <span class="btn-icon">👤</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================
+       FOOTER
+       ========================================================== -->
+  <!-- ==========================================================
+       FOOTER WITH INTERACTIVE CREATIVE IDEAS SWITCHER
+       ========================================================== -->
+  <footer class="footer" id="portfolioFooter">
+    <!-- Footer Creative Idea Switcher Dock -->
+    <div class="footer-switcher-dock">
+      <div class="fsd-label">
+        <span class="fsd-glow-dot"></span>
+        <strong>🎨 Try Footer Ideas (Click one by one):</strong>
+      </div>
+      <div class="fsd-buttons-scroll">
+        <button class="fsd-btn active" data-idea="idea-1">1. QA Smoke Test 🧪</button>
+        <button class="fsd-btn" data-idea="idea-2">2. Live Clock &amp; Status 🕒</button>
+        <button class="fsd-btn" data-idea="idea-3">3. 1-Click Copy Email 📋</button>
+        <button class="fsd-btn" data-idea="idea-4">4. Bug Bounty Hunter 🐞</button>
+        <button class="fsd-btn" data-idea="idea-5">5. Rocket Launch 🚀</button>
+        <button class="fsd-btn" data-idea="idea-6">6. Testing Philosophy 💬</button>
+        <button class="fsd-btn fsd-btn-combo" data-idea="idea-combo">★ All-in-One Combined</button>
+      </div>
+    </div>
+
+    <div class="footer-container">
+      
+      <!-- ==========================================================
+           IDEA 1: QA Quality Gate & Live Smoke Test
+           ========================================================== -->
+      <div class="footer-creative-panel active" id="panel-idea-1">
+        <div class="f-smoke-box">
+          <div class="f-smoke-left">
+            <div class="build-badge">
+              <span class="build-dot"></span>
+              <strong>CI/CD Quality Gate: PASSED</strong>
+            </div>
+            <p class="f-smoke-desc">This portfolio is verified with automated tests. Run a live in-browser smoke test right now:</p>
+          </div>
+          <div class="f-smoke-right">
+            <button class="orange-pill-btn btn-sm" id="runSmokeTestBtn" onclick="runPageSmokeTest()">
+              <span>⚡ Run Page Smoke Test</span>
+            </button>
+          </div>
+        </div>
+        <!-- Live Smoke Test Terminal Log -->
+        <div class="smoke-test-log" id="smokeTestLog" style="display: none;">
+          <div class="stl-line"><span class="stl-prompt">$</span> <span class="stl-cyan">mandeep-qa-runner</span> --target=portfolio --smoke</div>
+          <div class="stl-results" id="smokeTestResults"></div>
+        </div>
+      </div>
+
+      <!-- ==========================================================
+           IDEA 2: Live Chandigarh Clock & Availability
+           ========================================================== -->
+      <div class="footer-creative-panel" id="panel-idea-2">
+        <div class="f-clock-card">
+          <div class="f-clock-left">
+            <span class="clock-pin">📍</span>
+            <div>
+              <span class="clock-location">Chandigarh, India (IST • UTC+5:30)</span>
+              <div class="clock-display" id="liveClockDisplay">02:15:00 PM</div>
+            </div>
+          </div>
+          <div class="f-clock-right">
+            <div class="clock-status-pill">
+              <span class="clock-pulse"></span>
+              <span>Online &amp; Available for Immediate Interviews</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ==========================================================
+           IDEA 3: 1-Click Copy Email & Direct Reach
+           ========================================================== -->
+      <div class="footer-creative-panel" id="panel-idea-3">
+        <div class="f-copy-card">
+          <div class="f-copy-text">
+            <h4>Ready to Hire Mandeep? Copy Contact Info in 1 Click:</h4>
+            <p>Paste directly into your email client or recruiting software without typing.</p>
+          </div>
+          <div class="f-copy-actions">
+            <button class="copy-email-btn" onclick="copyContactEmail()" id="copyEmailBtn">
+              <span class="ce-icon">✉️</span>
+              <span class="ce-email" id="emailToCopy">ms3593589@gmail.com</span>
+              <span class="ce-tag" id="copyEmailTag">📋 Click to Copy</span>
+            </button>
+            <a href="tel:+916239465559" class="call-btn">
+              <span>📞 +91-6239465559</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- ==========================================================
+           IDEA 4: "Found a Bug?" Bug Bounty Easter Egg
+           ========================================================== -->
+      <div class="footer-creative-panel" id="panel-idea-4">
+        <div class="f-bug-card">
+          <div class="f-bug-left">
+            <span class="bug-emoji">🐞</span>
+            <div>
+              <h4>Spotted an Edge Case or UI Bug on this Page?</h4>
+              <p>As a passionate QA Engineer, I appreciate attention to detail! Report any quirk to me.</p>
+            </div>
+          </div>
+          <button class="orange-pill-btn btn-sm" onclick="openBugReportEasterEgg()">
+            <span>🐛 Report a Bug</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- ==========================================================
+           IDEA 5: Rocket Launch to Top
+           ========================================================== -->
+      <div class="footer-creative-panel" id="panel-idea-5">
+        <div class="f-rocket-card">
+          <p>Finished reviewing? Launch smoothly back to the top of the portfolio:</p>
+          <button class="rocket-launch-btn" onclick="launchRocketToTop()" id="rocketLaunchBtn">
+            <span class="rocket-icon">🚀</span>
+            <span>Launch Back to Top</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- ==========================================================
+           IDEA 6: Testing Philosophy & Quote
+           ========================================================== -->
+      <div class="footer-creative-panel" id="panel-idea-6">
+        <div class="f-quote-card">
+          <span class="quote-mark">“</span>
+          <p class="quote-text">
+            Quality is never an accident; it is always the result of intelligent effort, methodical test design, and genuine passion for zero-defect software.
+          </p>
+          <span class="quote-author">— Mandeep Singh • Software QA &amp; Automation Test Engineer</span>
+        </div>
+      </div>
+
+      <!-- ==========================================================
+           COMBO: All-in-One Combined QA Footer
+           ========================================================== -->
+      <div class="footer-creative-panel" id="panel-idea-combo">
+        <div class="f-combo-grid">
+          <!-- Col 1: Status & Time -->
+          <div class="combo-box">
+            <div class="combo-clock">
+              <span class="clock-pin">📍</span>
+              <div>
+                <span class="combo-sub">Chandigarh, India (IST)</span>
+                <span class="combo-time" id="comboClockDisplay">02:15 PM</span>
+              </div>
+            </div>
+            <div class="combo-avail">
+              <span class="clock-pulse"></span>
+              <span>Available for Immediate Hire</span>
+            </div>
+          </div>
+
+          <!-- Col 2: 1-Click Copy -->
+          <div class="combo-box">
+            <span class="combo-sub">Quick Contact</span>
+            <button class="combo-copy-btn" onclick="copyContactEmail()">
+              <span>✉️ ms3593589@gmail.com</span>
+              <span class="combo-copy-badge">📋 Copy</span>
+            </button>
+          </div>
+
+          <!-- Col 3: Smoke Test & Rocket -->
+          <div class="combo-box combo-actions-box">
+            <button class="btn-combo-smoke" onclick="runPageSmokeTest()">
+              <span>⚡ Test Page (Smoke Run)</span>
+            </button>
+            <button class="btn-combo-top" onclick="launchRocketToTop()" title="Scroll to top">
+              <span>🚀 Top</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Standard Bottom Copyright & Navigation Links -->
+      <div class="footer-bottom-row">
+        <span>© 2026 Mandeep Singh • Software QA &amp; Automation Test Engineer Portfolio</span>
+        <div class="footer-links">
+          <a href="#home">Home</a>
+          <a href="#skills">Skills</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">My Projects</a>
+          <a href="#education">Education</a>
+          <a href="#hire-me">Hire Me</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Universal Modal for Artifact Previews -->
+  <div class="modal-backdrop" id="artifactModal" onclick="closeModalOnBackdrop(event)">
+    <div class="modal-content" id="modalContainer">
+      <div class="modal-header">
+        <div>
+          <span class="modal-badge" id="modalBadge">Artifact Preview</span>
+          <h3 id="modalTitle">Test Details</h3>
+        </div>
+        <button class="modal-close" onclick="closeArtifactModal()" aria-label="Close modal">✕</button>
+      </div>
+      <div class="modal-body" id="modalBody"></div>
+      <div class="modal-footer">
+        <button class="btn-copy" onclick="copyModalCode()" id="copyModalBtn">📋 Copy Code</button>
+        <button class="btn-close-modal" onclick="closeArtifactModal()">Close Preview</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
