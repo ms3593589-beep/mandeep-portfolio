@@ -92,7 +92,13 @@ function initActiveNavScroll() {
    3. RESUME DOWNLOAD HANDLER
    ========================================================== */
 function handleResumeDownload() {
-  window.print();
+  const link = document.createElement('a');
+  link.href = 'Mandeep_Singh_Resume.pdf';
+  link.download = 'Mandeep_Singh_Resume.pdf';
+  link.target = '_blank';
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
 }
 
 /* ==========================================================
@@ -394,7 +400,7 @@ function runPageSmokeTest() {
 
 /* 1-Click Copy Email to Clipboard */
 function copyContactEmail() {
-  const email = 'ms3593589@gmail.com';
+  const email = 'mandeepsinghsaini2003@gmail.com';
   const tag = document.getElementById('copyEmailTag');
   const btn = document.getElementById('copyEmailBtn');
 
@@ -411,7 +417,7 @@ function copyContactEmail() {
 
 /* Bug Bounty Easter Egg */
 function openBugReportEasterEgg() {
-  alert("🐞 Bug Bounty Report:\n\nThank you for checking! If you discovered an edge-case defect, please email Mandeep directly at ms3593589@gmail.com with your findings.\n\nAs a QA Engineer, I love sharp eyes!");
+  alert("🐞 Bug Bounty Report:\n\nThank you for checking! If you discovered an edge-case defect, please email Mandeep directly at mandeepsinghsaini2003@gmail.com with your findings.\n\nAs a QA Engineer, I love sharp eyes!");
 }
 
 /* Rocket Launch Smooth Scroll to Top */

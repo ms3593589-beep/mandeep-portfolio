@@ -49,7 +49,6 @@ porfilo/
 
 ## 📬 Contact Mandeep Singh
 
-* **Email:** [ms3593589@gmail.com](mailto:ms3593589@gmail.com)
-* **Phone:** +91-6239465559
+* **Email:** [mandeepsinghsaini2003@gmail.com](mailto:mandeepsinghsaini2003@gmail.com)
 * **LinkedIn:** [linkedin.com/in/mandeep-singh-4304b9266](https://linkedin.com/in/mandeep-singh-4304b9266)
 * **Location:** Chandigarh, India
